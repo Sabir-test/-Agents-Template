@@ -78,7 +78,7 @@ opentelemetry-semantic-conventions==0.59b0
     # via opentelemetry-sdk
 packaging==25.0
     # via langfuse
-protobuf==6.33.0
+protobuf==6.33.5
     # via
     #   googleapis-common-protos
     #   opentelemetry-proto
@@ -89,7 +89,7 @@ pydantic==2.12.3
     #   openai
     #   pydantic-ai-slim
     #   pydantic-graph
-pydantic-ai-slim==1.7.0
+pydantic-ai-slim==1.72.0
     # via simple-pydantic-agent (pyproject.toml)
 pydantic-core==2.41.4
     # via pydantic
@@ -97,7 +97,7 @@ pydantic-graph==1.7.0
     # via pydantic-ai-slim
 python-dotenv==1.2.1
     # via simple-pydantic-agent (pyproject.toml)
-requests==2.32.5
+requests==2.33.0
     # via
     #   langfuse
     #   opentelemetry-exporter-otlp-proto-http
@@ -123,7 +123,7 @@ typing-inspection==0.4.2
     #   pydantic
     #   pydantic-ai-slim
     #   pydantic-graph
-urllib3==2.5.0
+urllib3==2.6.3
     # via requests
 wrapt==1.17.3
     # via langfuse
